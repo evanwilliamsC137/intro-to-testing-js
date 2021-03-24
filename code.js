@@ -18,3 +18,17 @@ function sayHello(input) {
 // function sayHello(input) {
 //     return "Hello" + input;
 // }
+
+
+function isFive() {
+
+}
+function isEven() {
+
+}
+function isVowel() {
+
+}
+function add() {
+
+}

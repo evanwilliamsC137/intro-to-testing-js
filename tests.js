@@ -47,3 +47,35 @@ describe("sayHello", function () {
     });
 
 })
+
+describe("isFive", function () {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe("function");
+    });
+    it('should return true when input is 5', function () {
+        expect(isFive(5)).toBe(true);
+    });
+})
+
+
+
+describe("isEven",function () {
+    it('should be a defined function', function () {
+        expect(typeof isEven).toBe("function");
+    });
+})
+
+
+
+describe("isVowel", function () {
+    it('should be a defined function', function () {
+        expect(typeof isVowel).toBe("function");
+    });
+})
+
+
+describe("add",function () {
+    it('should be a defined function', function () {
+        expect(typeof add).toBe("function");
+    });
+})
