@@ -13,3 +13,24 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+describe("addOne", function()  {
+    it('should be a defined function', function () {
+        expect(typeof addOne).toBe("function");
+    });
+    it('should return a number when called', function () {
+        expect(typeof addOne().toBe("number"))
+    });
+    it('should return the number 3 when passed the argument of 2', function () {
+        expect(addOne(2)).toBe(3);
+    });
+    it('should return the number -43 when passed the argument of the number -44', function () {
+        expect(addOne(-44)).toBe(-43);
+    });
+})
+
+describe("sayHello", function () {
+    it('should be a defined function', function () {
+        expect(typeof sayHello).toBe("function");
+    });
+})
