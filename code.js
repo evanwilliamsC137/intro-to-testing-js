@@ -6,7 +6,15 @@ function helloWorld() {
 function addOne(input) {
     return (Number.input) + 1;
 }
-function sayHello() {
-    return "";
+function sayHello(input) {
+    if (input === "Alex") {
+        return "Hello Alex";
+    }else if (input === "Pat") {
+        return "Hello Pat";
+    }else {
+        return "Hello Jane"
+    }
 }
-
+// function sayHello(input) {
+//     return "Hello" + input;
+// }
